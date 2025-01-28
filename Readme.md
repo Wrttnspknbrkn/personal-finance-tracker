@@ -25,7 +25,6 @@ Personal Finance Tracker is an intuitive web application designed to empower use
 
 - **Reports**:
   - Generate monthly or yearly financial summaries.
-  - Export reports (CSV or PDF export coming soon).
 
 - **Dark Mode**: Switch between light and dark modes to suit your preference.
 
@@ -77,7 +76,7 @@ Ensure Node.js is installed on your system. Download it [here](https://nodejs.or
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Wrttnspknbrkn/personal-finance-tracker.git
    cd personal-finance-tracker
    ```
 
@@ -115,6 +114,7 @@ Ensure Node.js is installed on your system. Download it [here](https://nodejs.or
 - **User Authentication**: Introduce secure accounts for multi-user support.
 - **Multi-Currency Support**: Enable users to track finances in different currencies.
 - **Recurring Transactions**: Add support for automatic logging of recurring income/expenses.
+- **Database Integration**: Use MySQL to handle database functionalities to replace local storage.
 
 ---
 
@@ -149,5 +149,5 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## 🌟 Live Demo
 
-Check out the live demo [here](https://wx7y3k6pv5mgmhak.vercel.app/).
+Check out the live demo [here](https://yzzbejrhx72hruyt.vercel.app/).
 
