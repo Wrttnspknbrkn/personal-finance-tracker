@@ -6,18 +6,24 @@ import { RecentTransactions } from "./recent-transactions"
 import { BudgetProgress } from "./budget-progress"
 import { SavingsGoals } from "./savings-goals"
 import { QuickAdd } from "./quick-add"
-import { QuickAddSavingsGoal } from "./quick-add-savings-goal"
+import { SavingsGoalForm } from "./savings-goal-form"
 
 export function Dashboard() {
   return (
-    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-      <TotalBalance />
-      <BudgetProgress />
-      <SavingsGoals />
-      <QuickAddSavingsGoal />
-      <QuickAdd />
-      <IncomeExpenseChart className="md:col-span-2" />
-      <RecentTransactions className="md:col-span-2 lg:col-span-1" />
+    <div className="space-y-6">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <TotalBalance />
+        <BudgetProgress />
+        <QuickAdd />
+      </div>
+      <div className="grid gap-6 lg:grid-cols-2">
+        <SavingsGoals />
+        <SavingsGoalForm />
+      </div>
+      <div className="grid gap-6 lg:grid-cols-3">
+        <IncomeExpenseChart className="lg:col-span-2" />
+        <RecentTransactions />
+      </div>
     </div>
   )
 }
